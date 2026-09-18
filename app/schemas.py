@@ -1,7 +1,10 @@
+from __future__ import annotations
+
+
 from pydantic import BaseModel, EmailStr, Field
 from typing import Annotated, Optional
-from __future__ import annotations
 from datetime import datetime
+
 
 class PostBase(BaseModel):
     title: str
